@@ -40,6 +40,7 @@ private ArrayList<RectangularShape> rectangles;
 	 * in the ArrayLists that do NOT contain the
 	 * parameter p
 	 */
+	 // I was asking for the ones that do NOT contain p
 	public int problem2(Point2D p) {
 		int count = 0;
 		for (RectangularShape r : rectangles) {
